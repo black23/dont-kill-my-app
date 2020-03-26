@@ -7,11 +7,11 @@ position: 4
 award: 4
 redirect_from: /vendors/xiaomi.html
 explanation: "
-Traditionally Xiaomi and their Android customization called MIUI belongs to the most troubled on the market with respect to non-standard background process limitations and non-standard permissions.
-There are no APIs and no documentation for those extensions. In default settings background processing simply does not work right and apps using them will break.
+Xiaomi a jejich nadstavba Android s názvem MIUI je vyhlášená nestandardním přístupem k běhu aplikací na pozadí a systémovým právům. Pro tuto nadstavbu neexistuje žádné API ani dokumentace. 
+Ve výchozím nastavení telefonu procesy na pozadí často nefungují správně a aplikace, které je využívají také ne.
 
 
-> NOTE: Android One devices by Xiaomi work much better than MIUI-based devices. So if you like Xiaomi we definitely recommend to look for their Android One offering.
+> POZOR: Zařízení od Xiaomi s Android One pracují výrazně lépe, než zařízení s MIUI. Takže pokud se vám líbí Xiaomi, doporučujeme se poohlédnout po zařízeních s podporou Android One.
 "
 
 user_solution: '
@@ -20,6 +20,7 @@ user_solution: '
 
 
 To let your app run successfully in the background, make sure your settings look like the following (here for example is Sleep as Android):
+Aby mohla aplikace běžela úspěšně na pozadí ubezpečte se, že nastavení vypadají jako na následujících podle následujících obrázcích (je na nich příklad s aplikaci Sleep as Android):
 
 
 <div class="img-block">
@@ -29,33 +30,32 @@ To let your app run successfully in the background, make sure your settings look
 </div>
 
 
-### Power management
+### Správa napájení
 
 
-Please enable:
+Prosím zapněte:
 
-* *Settings > Advanced Settings > Battery manager > Power plan* is set to Performance
+* *Nastavení (Settings) > Rozšíření nastavení (Advanced Settings) > Správce baterie (Battery manager) > Režim (Power plan)* nastavte na Výkon (Performance)
 
-* *Device Settings > Advanced Settings > Battery Manager > Protected apps* – your app needs to be Protected
+* *Nastavení zařízení (Device Settings) > Pokročilé nastavené (Advanced Settings) > Správce baterie (Battery Manager) > Chráněné aplikace (Protected apps)* – aplikace musí být označena jako chráněná (Protected)
 
-* *Device Settings > Apps > your app > Battery > Power-intensive prompt* and *Keep running after screen off*
+* *Nastavení zařízení (Device Settings) > Aplikace (Apps) > aplikace > Baterie (Battery) > Náročná na napájení (Power-intensive)* a *Nechat běžet po zhasnutí displeje (Keep running after screen off)*
 
-* *Settings > Additional Settings > Battery & Performance > Manage apps’ battery usage* and here:
+* *Nastavení (Settings) > Additional Settings > Battery & Performance > Manage apps’ battery usage* and here:
 
-1. Switch Power Saving Modes to Off
+1. Přepněte Úsporné režimy (Power Saving Modes) do stavu vypnuto 
 
 2. Choose the next options: *Saving Power in The Background > Choose apps > select your app > Background Settings > No restrictions*
 
 
 ### Šetření baterie (App battery saver)
 
-
 *Zabezpečení (Security) > Baterie (Battery) > Šteření batereie (App Battery Saver) > název aplikace  > Bez omezení (No restriction)*
 
 
 ### Zapnutí automatického spuštění aplikace
 
-(according to [Xiaomi](https://in.c.mi.com/thread-253478-1-0.html):
+(podle článku [Xiaomi](https://in.c.mi.com/thread-253478-1-0.html):
 
 V sekci *Zabezpečení (Security) > Oprávnění (Permissions) > Automatické spouštění (Auto-start)*
 
@@ -72,8 +72,7 @@ V sekci *Zabezpečení (Security) > Oprávnění (Permissions) > Automatické sp
 
 ### Připunutí aplikace (App pinning)
 
-When you open recent apps tray, drag your app downwards – it will be locked. So even if you clear recent apps it will not clear from the background. Drag downwards again to clear your app from the background.
-Pokud otevřete seznam nedávno spuštěných aplikací a přetáhnete vybranou aplikaci dolů, dojde k jejímu připnutí. Zůstane spuštěna i pokud promažete seznam nedávno spuštěných aplikací. Pokud ji chcete zase odepnout, opět ji přetáhněte směrem dolů.
+Pokud otevřete seznam nedávno spuštěných aplikací a přetáhnete vybranou aplikaci dolů, dojde k jejímu připnutí. Zůstane spuštěna i pokud vymažete seznam nedávno spuštěných aplikací. Pokud aplikaci chcete odepnout, opět ji přetáhněte směrem dolů.
 
 
 '
