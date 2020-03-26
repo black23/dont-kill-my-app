@@ -18,9 +18,7 @@ user_solution: '
 
 ### MIUI 10
 
-
-To let your app run successfully in the background, make sure your settings look like the following (here for example is Sleep as Android):
-Aby mohla aplikace běžela úspěšně na pozadí ubezpečte se, že nastavení vypadají jako na následujících podle následujících obrázcích (je na nich příklad s aplikaci Sleep as Android):
+Aby mohla aplikace běžela úspěšně na pozadí zkontrolujte, že nastavení vypadají jako na následujících obrázcích (je na nich příklad s aplikaci Sleep as Android):
 
 
 <div class="img-block">
