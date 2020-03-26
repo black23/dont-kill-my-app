@@ -47,21 +47,17 @@ Please enable:
 2. Choose the next options: *Saving Power in The Background > Choose apps > select your app > Background Settings > No restrictions*
 
 
-### App battery saver
+### Šetření baterie (App battery saver)
 
 
-*Security > Battery > App Battery Saver > your app > No restriction*
+*Zabezpečení (Security) > Baterie (Battery) > Šteření batereie (App Battery Saver) > název aplikace  > Bez omezení (No restriction)*
 
 
-### Autostart
+### Zapnutí automatického spuštění aplikace
 
 (according to [Xiaomi](https://in.c.mi.com/thread-253478-1-0.html):
 
-
-Open *Security app > Permissions > Auto-start*
-
-
-Enable Autostart for desired apps.
+V sekci *Zabezpečení (Security) > Oprávnění (Permissions) > Automatické spouštění (Auto-start)*
 
 <div class="img-block">
   <img src="/assets/img/ss_xiaomi_as_1.png">
@@ -69,16 +65,18 @@ Enable Autostart for desired apps.
     <div class="img-block">
      <figure>
           <img src="/assets/img/ss_xiaomi_as_3.png">
-       <figcaption>Search for Your app and tap to enable</figcaption>
+       <figcaption>Vyhledejte aplikaci a ťuknutím aktivujte</figcaption>
      </figure>
     </div>
 </div>    
 
-### App pinning
+### Připunutí aplikace (App pinning)
 
 When you open recent apps tray, drag your app downwards – it will be locked. So even if you clear recent apps it will not clear from the background. Drag downwards again to clear your app from the background.
+Pokud otevřete seznam nedávno spuštěných aplikací a přetáhnete vybranou aplikaci dolů, dojde k jejímu připnutí. Zůstane spuštěna i pokud promažete seznam nedávno spuštěných aplikací. Pokud ji chcete zase odepnout, opět ji přetáhněte směrem dolů.
+
 
 '
 
-developer_solution: "At the moment we don't know of any solution on dev end."
+developer_solution: "V současné chvíli nevíme o žádném řešení pro vývojáře."
 ---
