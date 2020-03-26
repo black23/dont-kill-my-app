@@ -68,7 +68,7 @@ V sekci *Zabezpečení (Security) > Oprávnění (Permissions) > Automatické sp
     </div>
 </div>    
 
-### Připunutí aplikace (App pinning)
+### Připnutí aplikace (App pinning)
 
 Pokud otevřete seznam nedávno spuštěných aplikací a přetáhnete vybranou aplikaci dolů, dojde k jejímu připnutí. Zůstane spuštěna i pokud vymažete seznam nedávno spuštěných aplikací. Pokud aplikaci chcete odepnout, opět ji přetáhněte směrem dolů.
 
